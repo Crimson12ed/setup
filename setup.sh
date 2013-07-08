@@ -41,3 +41,7 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# MY ADDITIONS (Customized for my own use)
+npm install cheerios
+npm install commander
+npm install restler
