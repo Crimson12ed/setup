@@ -16,6 +16,11 @@ nvm use v0.10.12
 # http://jshint.com/
 npm install -g jshint
 
+# MY ADDITIONS (Customized for my own use)
+npm install cheerios
+npm install commander
+npm install restler
+
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
@@ -41,7 +46,3 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-# MY ADDITIONS (Customized for my own use)
-npm install cheerios
-npm install commander
-npm install restler
